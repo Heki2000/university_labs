@@ -25,4 +25,4 @@ print(
 print(
     f"Название: {second_pos_name} | Количество: {second_pos_count} | Цена: {second_pos_cost * (1 - discount):.2f} руб | Стоимость: {second_pos_total_cost * (1 - discount):.2f} руб")
 print(
-    f"Общая сумма заказа с доставкой: {total_cost_with_delivery:.2f} руб / без доставки {total_cost_without_delivery * (1 - discount):.2f} руб\nОбщее количество товара: {total_pos_count}\nСкидка: {total_cost_with_delivery - total_cost_with_delivery_discount}\nСдача: {change:.2f} руб")
+    f"Общая сумма заказа с доставкой: {total_cost_with_delivery:.2f} руб / без доставки {total_cost_without_delivery * (1 - discount):.2f} руб\nОбщее количество товара: {total_pos_count}\nСкидка: {total_cost_with_delivery - total_cost_with_delivery_discount} руб. ({discount}%)\nСдача: {change:.2f} руб")
